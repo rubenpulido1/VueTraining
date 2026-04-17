@@ -50,7 +50,7 @@
             <div v-if="showBooks">
                 <ul>
                     <li 
-                        v-for="book in filteredBooks" 
+                        v-for="book in books" 
                         :class="{fav: book.isFav}"
                         @click="toggleFav(book)">
                         <img :src="book.img" :alt="book.title">
