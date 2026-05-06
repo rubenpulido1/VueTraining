@@ -1,10 +1,15 @@
 <template>
     <div class="backdrop"> 
         <div class="modal">
-            <h1> modal content </h1>
+            <h1> Modal Title </h1>
+            <p>modal content</p>
         </div>
     </div>
 </template>
+
+<script setup>
+
+</script>
 
 <style>
     .modal {

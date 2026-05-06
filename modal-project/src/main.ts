@@ -1,7 +1,7 @@
 // Importing component from Vue library
 import { createApp } from 'vue'
 import App from './App.vue'
-
+import './assets/global.css'
 /* 
     Mounting the App (root) component to the div element in index.html:
 
